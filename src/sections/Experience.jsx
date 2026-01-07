@@ -59,7 +59,7 @@ const Experience = () => {
       className="w-full  md:mt-40 mt-20 section-padding xl:px-0"
     >
       <div className="w-full h-full md:px-20 px-5">
-        <TitledHeader title=" My Experience" sub="My Career Overview" />
+        <TitledHeader title=" My Projects" sub="My Career Goals Overview" />
         <div className="mt-32 relative">
           <div className="z-50 relative xl:space-y-32 space-y-10 ">
             {expCards.map((card, index) => (

@@ -4,7 +4,7 @@ const navLinks = [
     link: "#work",
   },
   {
-    name: "Experience",
+    name: "Projects",
     link: "#experience",
   },
   {
@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 4, suffix: "+", label: "Years of Experience" },
-  { value: 10, suffix: "+", label: "Satisfied Clients" },
-  { value: 15, suffix: "+", label: "Completed Projects" },
-  { value: 50, suffix: "%", label: "Client Retention Rate" },
+  { value: 0, suffix: "", label: "Years of Experience" },
+  { value: 2, suffix: "", label: "Satisfied Clients" },
+  { value: 12, suffix: "", label: "Completed Projects" },
+
 ];
 
 const logoIconsList = [
@@ -91,24 +91,24 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
+    name: "React",
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Fullstack Developer",
-    imgPath: "/images/logos/fullstack.png",
+    name: "PostgreSQL",
+    imgPath: "/images/logos/postgre.png",
   },
   {
-    name: "Backend Developer",
+    name: "Node",
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "Next",
+    imgPath: "/images/logos/nextjs.png",
   },
   {
-    name: "Frontend Developer",
-    imgPath: "/images/logos/git.svg",
+    name: "Express",
+    imgPath: "/images/logos/expressjs.svg",
   },
 ];
 
@@ -151,7 +151,7 @@ const expCards = [
       "Kyle brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
+    title: "Full Stack Developer",
     date: "August 2022 - Present",
     responsibilities: [
       "Developed and create a simple Youtube using HTML, CSS, and Javascript.",
@@ -177,7 +177,7 @@ const expCards = [
       "Kyle work on Metrobank Strong Program Web App brought a high level of quality and efficiency. He delivered solutions that enhanced our user experience & meet our product goals.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "PERN Stack Developer",
+    title: "Full Stack Developer",
     date: "March 2024 - Present",
     responsibilities: [
       "Built cross-platform web apps using PERN Stack, integrating with Metrobank Strong Program frontend services.",
@@ -207,45 +207,46 @@ const testimonials = [
     name: "Daniel Panturas",
     mentions: "@panturasdaniel@gmail.com",
     review:
-      "I can’t say enough good things about Kyle. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Kyle helped me a lot with our school project. He was able to make the website work exactly how we wanted and explained things clearly when I did not understand.",
     imgPath: "/images/client1.png",
   },
   {
     name: "Jericho Caneso",
     mentions: "@jericho@gmail.com",
     review:
-      "Working with Kyle was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Kyle was a great experience. He quickly fixed bugs and added features we did not even know how to do ourselves. He was very patient, always made sure the system worked properly, and gave helpful suggestions to improve our project.",
     imgPath: "/images/client3.png",
   },
   {
     name: "Ezrah Palmos",
     mentions: "@izrah@gmail.com",
     review:
-      "Collaborating with Kyle was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Kyle's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Kyle is the ideal partner.",
+      "Kyle is very organized and knows how to turn ideas into fully working websites. He helped our team stay on track and delivered everything on time. His guidance and support made completing the project much easier and less stressful.",
     imgPath: "/images/client2.png",
   },
   {
     name: "John Martin Nigos",
     mentions: "@nigos@gmail.com",
     review:
-      "Kyle was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "I really appreciate how Kyle handles both frontend and backend work. He helped improve our web application so it is faster, more user-friendly, and easier to navigate. He is very reliable, easy to work with, and always makes sure the project meets our goals.",
     imgPath: "/images/client5.png",
   },
   {
     name: "Dann Ashley Aguilar",
     mentions: "@aguilar@gmail.com",
     review:
-      "Kyle’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "Kyle has impressive knowledge in web development. He guided our team step by step, made sure everything ran smoothly, and helped us solve problems we could not figure out ourselves.",
     imgPath: "/images/client4.png",
   },
   {
     name: "Julcris Evangelista",
     mentions: "@julcris@gmail.com",
     review:
-      "Kyle was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Kyle understands what college students need in a project. He helped us make a functional and clean website while explaining the logic behind his code. Working with him made the entire experience easier, and he always provided helpful feedback to improve our work.",
     imgPath: "/images/client6.png",
   },
 ];
+
 
 const socialImgs = [
   {

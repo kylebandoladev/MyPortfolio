@@ -55,12 +55,12 @@ const ShowcaseSection = () => {
           {/* left */}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper bg-[#26282a]">
-              <img src="/images/project1.png" alt="" />
+              <img src="/images/project4.png" alt="" />
             </div>
             <div className="text-content">
-              <h2>See Latest and Trending Movies For Free in Darkflix</h2>
+              <h2>Zenbucks Cafe</h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React JS, Appwrite, & Tailwind CSS for a fast,
+                An app built with React JS, Typescript, GSAP, & Tailwind CSS for a fast,
                 user-friendly experience.
               </p>
             </div>
