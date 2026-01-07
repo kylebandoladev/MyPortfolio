@@ -152,7 +152,7 @@ const expCards = [
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Full Stack Developer",
-    date: "August 2022 - Present",
+    date: "August 2025 - January 2026",
     responsibilities: [
       "Developed and create a simple Youtube using HTML, CSS, and Javascript.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
@@ -165,7 +165,7 @@ const expCards = [
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Full Stack Developer",
-    date: "June 2024 - February 2025",
+    date: "July 2024 - September 2024",
     responsibilities: [
       "Participated in the development of ArchiTech web applications, focusing on scalability.",
       "Worked with frontend and backend to integrate APIs seamlessly with the frontend.",
@@ -178,7 +178,7 @@ const expCards = [
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "Full Stack Developer",
-    date: "March 2024 - Present",
+    date: "February 2025 - October 2025 ",
     responsibilities: [
       "Built cross-platform web apps using PERN Stack, integrating with Metrobank Strong Program frontend services.",
       "Improved web app performance and user experience through code optimization and testing.",
@@ -232,8 +232,8 @@ const testimonials = [
     imgPath: "/images/client5.png",
   },
   {
-    name: "Dann Ashley Aguilar",
-    mentions: "@aguilar@gmail.com",
+    name: "Dave Marin",
+    mentions: "@davemarin@gmail.com",
     review:
       "Kyle has impressive knowledge in web development. He guided our team step by step, made sure everything ran smoothly, and helped us solve problems we could not figure out ourselves.",
     imgPath: "/images/client4.png",
