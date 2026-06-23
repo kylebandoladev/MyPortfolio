@@ -29,9 +29,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 0, suffix: "", label: "Years of Experience" },
-  { value: 2, suffix: "", label: "Satisfied Clients" },
-  { value: 12, suffix: "", label: "Completed Projects" },
+  { value: 1, suffix: "", label: "Years of Experience" },
+  { value: 3, suffix: "", label: "Satisfied Clients" },
+  { value: 10, suffix: "", label: "Completed Projects" },
 
 ];
 
@@ -103,8 +103,8 @@ const techStackImgs = [
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Next",
-    imgPath: "/images/logos/nextjs.png",
+    name: "C#",
+    imgPath: "/images/logos/c.svg",
   },
   {
     name: "Express",
